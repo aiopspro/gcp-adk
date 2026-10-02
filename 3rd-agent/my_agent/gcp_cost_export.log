@@ -1,0 +1,6 @@
+[TIMESTAMP: 2026-10-01]
+RESOURCE: compute_engine_instance_prod_db | SKU: e2-standard-8 | COST: $240.00 | STATUS: RUNNING (Idle 85%)
+RESOURCE: bigquery_dataset_analytics | SKU: storage_standard | COST: $145.00 | STATUS: ACTIVE
+RESOURCE: unattached_persistent_disk_99 | SKU: pd-ssd | COST: $85.00 | STATUS: UNATTACHED (WASTE)
+RESOURCE: cloud_run_staging_api | SKU: vcpu_duration | COST: $12.00 | STATUS: IDLE (Scale to 0 Active)
+Total Estimated Unnecessary Spend: $85.00 (Actionable)
